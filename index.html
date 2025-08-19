@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uhone Mulaudzi — Portfolio</title>
+    <meta name="description" content="Portfolio website for Uhone Mulaudzi, Software Developer and IT student. Experience, education, skills, and contact information." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="site-header" id="top">
+      <div class="container nav-container">
+        <a href="#home" class="logo" aria-label="Go to home">Uhone Mulaudzi</a>
+
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <ul class="nav-links" id="primaryNav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#references">References</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-cta">
+          <a class="btn btn-outline" href="assets/Uhone_Mulaudzi_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="section-hero">
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <h1 class="hero-title">Uhone Mulaudzi</h1>
+            <h2 class="hero-subtitle">Software Developer</h2>
+            <p class="hero-desc">
+              Motivated and enthusiastic IT student with a strong foundation in programming and software development. Seeking opportunities to apply technical skills, gain hands-on experience, and contribute to innovative projects. Specializing in web development, C# programming, and database management.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="assets/Uhone_Mulaudzi_Resume.pdf" class="btn btn-outline">Download Resume</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="profile-wrap">
+              <img src="assets/profile.jpg" alt="Portrait of Uhone Mulaudzi" class="profile-photo" width="320" height="320" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section section-experience">
+        <div class="container">
+          <h3 class="section-title">Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h4 class="item-title">IT Student &amp; Aspiring Software Developer</h4>
+                <div class="item-meta">Nelson Mandela University • 2022 - Present</div>
+                <p class="item-desc">
+                  Currently pursuing Bachelor of Information Technology in Software Engineering. Actively developing programming skills through coursework and personal projects, with a focus on web development and software engineering principles.
+                </p>
+                <div class="item-subtitle">Key Achievements</div>
+                <ul class="item-list">
+                  <li>Maintaining strong academic performance in software engineering coursework</li>
+                  <li>Completed Introduction to Cybersecurity certification (CISCO)</li>
+                  <li>Completed Introduction to IoT certification (CISCO)</li>
+                  <li>Developing practical skills in C# programming and database management</li>
+                </ul>
+                <div class="item-tags">
+                  <span class="tag">C#</span>
+                  <span class="tag">Web Development</span>
+                  <span class="tag">Database Management</span>
+                  <span class="tag">Android Studio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section section-education">
+        <div class="container">
+          <h3 class="section-title">Education &amp; Certifications</h3>
+          <div class="edu-grid">
+            <div class="edu-col">
+              <h4 class="col-title">Education</h4>
+              <div class="edu-card">
+                <div class="edu-degree">Bachelor of Information Technology in Software Engineering</div>
+                <div class="edu-school">Nelson Mandela University</div>
+                <div class="edu-dates">2022 - 2026 (Expected)</div>
+                <p class="edu-desc">Currently pursuing a comprehensive program in software engineering with focus on programming, web development, and database management. Located in Port Elizabeth.</p>
+              </div>
+              <div class="edu-card">
+                <div class="edu-degree">National Senior Certificate</div>
+                <div class="edu-school">Tshiitwa Secondary School</div>
+                <div class="edu-dates">Completed Feb 2022</div>
+                <p class="edu-desc">Successfully completed secondary education in Limpopo, providing a strong foundation for higher education in Information Technology.</p>
+              </div>
+            </div>
+            <div class="edu-col">
+              <h4 class="col-title">Certifications</h4>
+              <ul class="cert-list">
+                <li>
+                  <span class="cert-name">Introduction to Cybersecurity</span>
+                  <span class="cert-issuer">CISCO</span>
+                  <span class="cert-date">Completed 2023</span>
+                </li>
+                <li>
+                  <span class="cert-name">Introduction to IoT</span>
+                  <span class="cert-issuer">CISCO</span>
+                  <span class="cert-date">Completed 2023</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section section-skills">
+        <div class="container">
+          <h3 class="section-title">Skills</h3>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h4 class="skill-title">Programming &amp; Development</h4>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>C# Programming</span><span>75%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 75%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Web Development</span><span>70%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 70%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Android Studio</span><span>60%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 60%"></span></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <h4 class="skill-title">Database &amp; Systems</h4>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Database Management</span><span>70%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 70%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Computer Skills</span><span>85%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 85%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Microsoft Office</span><span>90%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 90%"></span></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <h4 class="skill-title">Security &amp; IoT</h4>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Cybersecurity Basics</span><span>65%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 65%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>IoT Fundamentals</span><span>60%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 60%"></span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-label">
+                  <span>Network Security</span><span>55%</span>
+                </div>
+                <div class="progress-bar"><span style="width: 55%"></span></div>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="subsection-title">Soft Skills</h4>
+          <div class="soft-grid">
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🤝</div>
+              <div class="soft-title">Teamwork &amp; Collaboration</div>
+              <p class="soft-desc">Working effectively with diverse teams to achieve common goals</p>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🧩</div>
+              <div class="soft-title">Problem Solving</div>
+              <p class="soft-desc">Analytical approach to identifying and solving technical challenges</p>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">💬</div>
+              <div class="soft-title">Communication</div>
+              <p class="soft-desc">Fluent in English with native Tshivenda language skills</p>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🗂️</div>
+              <div class="soft-title">Multitasking</div>
+              <p class="soft-desc">Managing multiple projects and priorities efficiently</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- References & Languages Section -->
+      <section id="references" class="section section-refs">
+        <div class="container">
+          <h3 class="section-title">References &amp; Languages</h3>
+          <div class="refs-grid">
+            <div class="refs-col">
+              <h4 class="col-title">References</h4>
+              <div class="ref-card">
+                <div class="ref-name">Mellisa Makalima</div>
+                <div class="ref-role">Senior Lecturer, Nelson Mandela University — Lecture</div>
+                <div class="ref-contact">Phone: <a href="tel:+27415043196">27415043196</a></div>
+                <div class="ref-contact">Email: <a href="mailto:melissa.makalima@mandela.ac.za">melissa.makalima@mandela.ac.za</a></div>
+              </div>
+            </div>
+            <div class="refs-col">
+              <h4 class="col-title">Languages</h4>
+              <ul class="lang-list">
+                <li><span class="lang">Tshivenda</span> — <span class="fluency">Native (Home Language)</span></li>
+                <li><span class="lang">English</span> — <span class="fluency">Fluent (Business &amp; Academic)</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section section-contact">
+        <div class="container">
+          <h3 class="section-title">Contact</h3>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:uhone1940@gmail.com">uhone1940@gmail.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+27715752173">071 575 2173</a></li>
+                <li><strong>Location:</strong> Johannesburg, Gauteng 2043</li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/uhone-ndivho-25bba9240" target="_blank" rel="noopener noreferrer">linkedin.com/in/uhone-ndivho-25bba9240</a></li>
+              </ul>
+            </div>
+            <div class="contact-form-wrap">
+              <form class="contact-form" action="#" method="post" novalidate>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your full name" />
+                  </div>
+                  <div class="form-field">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com" />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="How can I help?" />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Write your message here"></textarea>
+                  </div>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-copy">© 2024 Uhone Mulaudzi. All rights reserved.</div>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#references">References</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
